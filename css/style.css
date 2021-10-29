@@ -62,8 +62,8 @@ a.skip:focus{
 
 .nav_item a{
   padding: 10px;
-  color:black;
-  text-decoration:none;
+  color:blue;
+  text-decoration:underline;
 }
   
 .nav_item a:hover, a:focus{
