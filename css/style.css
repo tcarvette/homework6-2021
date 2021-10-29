@@ -56,8 +56,8 @@ a.skip:focus{
 /* nav_links class */
 .nav_links{
   display:flex;
-  justify-content:center;
-  flex-direction:row;
+  justify-content:flex-end;
+  flex-direction:row-reverse;
 }
 
 .nav_item a{
@@ -208,13 +208,19 @@ footer{
     background-image:none;
   }
 
+  .nav_links{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+  }
+
   .card{
     flex-basis:250px;
     border:2px solid #45ADDD;
   }
 
   .pricing{
-    align-items:baseline;
+    align-items:flex-end;
   }
 
   .gallery{
