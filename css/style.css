@@ -53,26 +53,6 @@ a.skip:focus{
   border: 2px solid black;
 }
 
-/* nav_links class */
-.nav_links{
-  display:flex;
-  justify-content:flex-end;
-  flex-direction:row-reverse;
-}
-
-.nav_item a{
-  padding: 10px;
-  color:blue;
-  text-decoration:underline;
-}
-  
-.nav_item a:hover, a:focus{
-  color: #50C7C7;
-  text-decoration: underline;
-  -webkit-text-decoration-style: dotted;
-          text-decoration-style: dotted;
-}
-
 .pricing{
   min-height: 475px;
   display:flex;
@@ -176,6 +156,26 @@ footer{
   animation-name:logo_wiggle;
   animation-duration:5s;
   background-repeat:no-repeat;
+}
+
+/* nav_links class */
+.nav_links{
+  display:flex;
+  justify-content:flex-end;
+  flex-direction:row-reverse;
+}
+
+.nav_item a{
+  padding: 10px;
+  color:blue;
+  text-decoration:underline;
+}
+  
+.nav_item a:hover, a:focus{
+  color: #50C7C7;
+  text-decoration: underline;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
 }
 
 @media screen and (min-width: 850px){
